@@ -1,21 +1,3 @@
-"""
-Drilling Cost Optimization — Cost-per-Foot Equation with the Galle-Woods Bit Wear Model
-==========================================================================================
-Interactive Streamlit version. Finds the optimum drilling parameters (Weight on Bit
-and Rotary Speed) that minimize the cost per foot of drilling, using two classic
-drilling-engineering models:
-
-1. Galle-Woods Bit Wear Model — predicts Rate of Penetration (ROP), tooth wear life,
-   and bearing wear life for roller-cone bits as functions of WOB and RPM.
-2. Cost-per-Foot Equation — combines bit cost, rig operating cost, trip time, and
-   connection time with the footage drilled to compute the true economic cost of
-   drilling ($/ft):
-
-        Cost = (Cb + Cr * (tb + tc + Tt)) / Delta_D
-
-Run locally:  streamlit run drilling_cost_optimizer.py
-"""
-
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
