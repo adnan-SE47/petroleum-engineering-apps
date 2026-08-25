@@ -1,15 +1,3 @@
-"""
-Reservoir Pressure Drop Simulator — Transient Pressure Drawdown (Ei-Function Solution)
-==========================================================================================
-Interactive Streamlit version of the original PyQt5 desktop app. Calculates transient
-pressure drawdown using the exponential integral (Ei) solution to the diffusivity
-equation, in two modes:
-  - Pressure vs. Radius at a fixed time
-  - Pressure vs. Time at a fixed radius
-
-Run locally:  streamlit run reservoir_pressure_app.py
-"""
-
 import numpy as np
 from scipy.special import exp1
 import plotly.graph_objects as go
