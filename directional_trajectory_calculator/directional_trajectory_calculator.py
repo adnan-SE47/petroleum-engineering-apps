@@ -1,15 +1,3 @@
-"""
-Directional Drilling Trajectory Design
-==========================================================================================
-Interactive Streamlit version of the original PyQt5 desktop app. Computes directional
-survey parameters (ΔTVD, ΔNorth, ΔEast, Closure Distance/Direction, Vertical Section,
-Dogleg Severity) between two survey stations, using five standard well-path calculation
-methods:
-  Minimum Curvature | Average Angle | Balanced Tangential | Tangential | Radius of Curvature
-
-Run locally:  streamlit run directional_trajectory_calculator.py
-"""
-
 import math
 import numpy as np
 import plotly.graph_objects as go
